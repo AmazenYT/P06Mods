@@ -1,0 +1,2969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Shadowth117</author>
+      <authoring_tool>3dsMax 11 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=0;ExportXRefs=1;ExportSelected=0;ExportTangents=0;ExportAnimations=1;SampleAnim=0;ExportAnimClip=0;BakeMatrices=0;ExportRelativePaths=1;AnimStart=0;AnimEnd=3.33333;</comments>
+      <source_data>file:///F:/Softwrap/YOYOGAMESGM70FINAL/Pre%20Nuke%20HD%20files/Public%20Documents/Documents/Spriter%27s%20resource/Models/SA2B/Objects/Ramp/Ramp.max</source_data>
+    </contributor>
+    <created>2010-09-08T21:19:24Z</created>
+    <modified>2010-09-08T21:19:25Z</modified>
+    <unit meter="0.0254" name="inch"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="_33cef7a.png" name="_33cef7a_png">
+      <init_from>./333cef7a.png</init_from>
+    </image>
+    <image id="_0000000.dds1" name="_0000000_dds">
+      <init_from>../../../../../../../../../3D%20rips/SA2BTextures/00000000.dds</init_from>
+    </image>
+    <image id="_59ba760.png" name="_59ba760_png">
+      <init_from>./859ba760.png</init_from>
+    </image>
+    <image id="_7bdaebd.png" name="_7bdaebd_png">
+      <init_from>./07bdaebd.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_33cef7a.dds" name="_33cef7a_dds">
+      <instance_effect url="#_33cef7a.dds-fx"/>
+    </material>
+    <material id="_0000000.dds" name="_0000000_dds">
+      <instance_effect url="#_0000000.dds-fx"/>
+    </material>
+    <material id="_59ba760.dds" name="_59ba760_dds">
+      <instance_effect url="#_59ba760.dds-fx"/>
+    </material>
+    <material id="_7bdaebd.dds" name="_7bdaebd_dds">
+      <instance_effect url="#_7bdaebd.dds-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_33cef7a.dds-fx" name="_33cef7a_dds">
+      <profile_COMMON>
+        <newparam sid="_33cef7a_png-surface">
+          <surface type="2D">
+            <init_from>_33cef7a.png</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="_33cef7a_png-sampler">
+          <sampler2D>
+            <source>_33cef7a_png-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.7 0.7 0.7 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_33cef7a_png-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.1</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="_0000000.dds-fx" name="_0000000_dds">
+      <profile_COMMON>
+        <newparam sid="_0000000_dds1-surface">
+          <surface type="2D">
+            <init_from>_0000000.dds1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="_0000000_dds1-sampler">
+          <sampler2D>
+            <source>_0000000_dds1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.7 0.7 0.7 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_0000000_dds1-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.1</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="_59ba760.dds-fx" name="_59ba760_dds">
+      <profile_COMMON>
+        <newparam sid="_59ba760_png-surface">
+          <surface type="2D">
+            <init_from>_59ba760.png</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="_59ba760_png-sampler">
+          <sampler2D>
+            <source>_59ba760_png-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.7 0.7 0.7 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_59ba760_png-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.1</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="_7bdaebd.dds-fx" name="_7bdaebd_dds">
+      <profile_COMMON>
+        <newparam sid="_7bdaebd_png-surface">
+          <surface type="2D">
+            <init_from>_7bdaebd.png</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="_7bdaebd_png-sampler">
+          <sampler2D>
+            <source>_7bdaebd_png-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <ambient>
+              <color>0.7 0.7 0.7 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_7bdaebd_png-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>1</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0.415939</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0.1</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="DrawCall_0111-mesh" name="DrawCall_0111">
+      <mesh>
+        <source id="DrawCall_0111-mesh-positions">
+          <float_array id="DrawCall_0111-mesh-positions-array" count="36">19.2447 75.3412 -6.45563 45.632 66.497 27.3041 14.2406 70.0919 3.9134 14.3567 112.286 10.2426 45.748 108.691 33.6333 19.3409 110.283 -1.21428 19.2447 75.3412 -6.45563 45.632 66.497 27.3041 19.2928 92.8122 -3.83495 45.69 87.5941 30.4687 19.3409 110.283 -1.21428 45.748 108.691 33.6333</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-normals">
+          <float_array id="DrawCall_0111-mesh-normals-array" count="36">0.175805 -0.909881 -0.375777 0.175805 -0.909881 -0.375777 0.175805 -0.909882 -0.375777 0.180997 0.979131 -0.092423 0.180997 0.979131 -0.092423 0.180997 0.979131 -0.092423 0.795864 0.087675 -0.599094 0.795864 0.087675 -0.599094 0.795864 0.087675 -0.599094 0.795864 0.087675 -0.599094 0.795864 0.087675 -0.599094 0.795864 0.087675 -0.599094</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel1">
+          <float_array id="DrawCall_0111-mesh-map-channel1-array" count="36">3.77734 3.59766 0 3.75781 3.9375 0 3.94531 3.91797 0 3.77734 3.59766 0 3.75781 3.9375 0 3.94531 3.91797 0 0.0625 0.003906 0 0.0625 4 0 2 0.003906 0 2 4 0 3.96875 0.003906 0 3.96875 4 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel1-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel2">
+          <float_array id="DrawCall_0111-mesh-map-channel2-array" count="36">27.4786 13.2951 0 65.1557 -51.0022 0 20.3335 -6.45329 0 20.4992 -18.5075 0 65.3215 -63.0564 0 27.6159 3.31265 0 27.4786 13.2951 0 65.1557 -51.0022 0 27.5473 8.30388 0 65.2386 -57.0293 0 27.6159 3.31265 0 65.3215 -63.0564 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel2-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel3">
+          <float_array id="DrawCall_0111-mesh-map-channel3-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel3-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel4">
+          <float_array id="DrawCall_0111-mesh-map-channel4-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel4-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel5">
+          <float_array id="DrawCall_0111-mesh-map-channel5-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel5-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel6">
+          <float_array id="DrawCall_0111-mesh-map-channel6-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel6-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel7">
+          <float_array id="DrawCall_0111-mesh-map-channel7-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel7-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0111-mesh-map-channel8">
+          <float_array id="DrawCall_0111-mesh-map-channel8-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0111-mesh-map-channel8-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DrawCall_0111-mesh-vertices">
+          <input semantic="POSITION" source="#DrawCall_0111-mesh-positions"/>
+        </vertices>
+        <triangles material="_7bdaebd.dds" count="6">
+          <input semantic="VERTEX" source="#DrawCall_0111-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#DrawCall_0111-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel3" offset="4" set="3"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel4" offset="5" set="4"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel5" offset="6" set="5"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel6" offset="7" set="6"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel7" offset="8" set="7"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0111-mesh-map-channel8" offset="9" set="8"/>
+          <p>0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 7 6 7 7 7 7 7 7 7 7 6 7 6 6 6 6 6 6 6 6 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 7 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 8 8 8 8 8 8 8 8 8 8 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DrawCall_0110-mesh" name="DrawCall_0110">
+      <mesh>
+        <source id="DrawCall_0110-mesh-positions">
+          <float_array id="DrawCall_0110-mesh-positions-array" count="138">14.3667 115.912 10.7865 47.1123 112.162 35.1894 15.1915 116.18 8.98417 48.3495 112.564 32.486 46.9763 62.7153 27.7724 14.2306 66.4658 3.36948 48.2135 63.1175 25.069 15.0555 66.7339 1.56716 46.9763 62.7153 27.7724 46.5748 66.5368 29.2669 14.2306 66.4658 3.36948 13.8291 70.2873 4.86397 48.2135 63.1175 25.069 46.9763 62.7153 27.7724 52.2057 61.5363 35.5367 46.5748 66.5368 29.2669 52.2166 65.4918 36.1301 14.3667 115.912 10.7865 13.9434 111.822 11.0943 47.1123 112.162 35.1894 46.689 108.072 35.4972 52.3309 107.027 42.3604 46.689 108.072 35.4972 52.3417 110.983 42.9538 47.1123 112.162 35.1894 48.3495 112.564 32.486 52.2057 61.5363 35.5367 48.2135 63.1175 25.069 52.2166 65.4918 36.1301 48.3495 112.564 32.486 52.3309 107.027 42.3604 52.3417 110.983 42.9538 14.3667 115.912 10.7865 15.1915 116.18 8.98417 7.90003 116.689 5.72566 15.0555 66.7339 1.56716 14.2306 66.4658 3.36948 7.764 67.2427 -1.69135 7.88914 112.733 5.1323 13.9434 111.822 11.0943 7.90003 116.689 5.72566 14.3667 115.912 10.7865 7.77489 71.1982 -1.09801 7.764 67.2427 -1.69135 13.8291 70.2873 4.86397 14.2306 66.4658 3.36948</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-positions-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-normals">
+          <float_array id="DrawCall_0110-mesh-normals-array" count="150">0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.585517 -0.347876 0.732224 -0.585517 -0.347876 0.732224 -0.585517 -0.347876 0.732224 -0.585517 -0.347876 0.732224 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.809122 -0.2368 0.537817 -0.814801 -0.283399 0.505752 -0.790704 -0.144479 0.594906 -0.77604 -0.091467 0.624016 -0.58423 0.120866 0.802538 -0.58423 0.120866 0.802538 -0.58423 0.120866 0.802538 -0.58423 0.120866 0.802538 -0.808271 0.072923 0.584277 -0.77604 -0.091467 0.624016 -0.790396 -0.03217 0.611751 -0.813674 0.126909 0.567299 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 0.935676 0.049824 -0.349324 0.935676 0.049824 -0.349324 0.935676 0.049824 -0.349324 0.935676 0.049824 -0.349324 0.935676 0.049824 -0.349324 0.935676 0.049824 -0.349324 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 0.002718 0.988933 0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.002718 -0.988933 -0.14834 -0.705751 -0.103195 0.700904 -0.637305 0.056416 0.768544 -0.681167 -0.039392 0.731068 -0.602612 0.121727 0.788696 -0.705751 -0.103195 0.700904 -0.681536 -0.173171 0.711 -0.638217 -0.276004 0.71868 -0.603893 -0.344538 0.718754</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-normals-array" count="50" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel1">
+          <float_array id="DrawCall_0110-mesh-map-channel1-array" count="138">0.234375 0.003906 0 0.234375 5 0 0.660156 0.003906 0 0.660156 5 0 0.234375 5 0 0.234375 0.003906 0 0.660156 5 0 0.660156 0.003906 0 0.246094 5 0 0.015625 5 0 0.246094 0.003906 0 0.015625 0.003906 0 0.660156 0.003906 0 0.246094 0.003906 0 0.246094 1.17188 0 0.015625 0.003906 0 0.015625 1.17188 0 0.246094 0.003906 0 0.015625 0.003906 0 0.246094 5 0 0.015625 5 0 0.015625 1.17188 0 0.015625 0.003906 0 0.246094 1.17188 0 0.246094 0.003906 0 0.660156 0.003906 0 0 5 0 0.609375 5 0 0 4.48438 0 0.609375 0.003906 0 0 0.519531 0 0 0.003906 0 0.234375 5 0 0.660156 5 0 0.234375 3.67188 0 0.660156 5 0 0.234375 5 0 0.234375 3.67188 0 0.015625 3.67188 0 0.015625 5 0 0.246094 3.67188 0 0.246094 5 0 0.015625 3.67188 0 0.246094 3.67188 0 0.015625 5 0 0.246094 5 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel1-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel2">
+          <float_array id="DrawCall_0110-mesh-map-channel2-array" count="138">20.5135 -19.5435 0 67.2694 -66.0203 0 21.6912 -16.1108 0 69.036 -60.8713 0 67.0752 -51.8942 0 20.3193 -5.41736 0 68.8418 -46.7452 0 21.497 -1.98473 0 67.0752 -51.8942 0 66.5019 -54.7405 0 20.3193 -5.41736 0 19.746 -8.26371 0 68.8418 -46.7452 0 67.0752 -51.8942 0 74.5421 -66.6817 0 66.5019 -54.7405 0 74.5576 -67.8117 0 20.5135 -19.5435 0 19.9091 -20.1297 0 67.2694 -66.0203 0 66.665 -66.6065 0 74.7208 -79.6777 0 66.665 -66.6065 0 74.7363 -80.8078 0 67.2694 -66.0203 0 69.036 -60.8713 0 74.5421 -66.6817 0 68.8418 -46.7452 0 74.5576 -67.8117 0 69.036 -60.8713 0 74.7208 -79.6777 0 74.7363 -80.8078 0 20.5135 -19.5435 0 21.6912 -16.1108 0 11.2801 -9.90485 0 21.497 -1.98473 0 20.3193 -5.41736 0 11.0859 4.22126 0 11.2645 -8.77475 0 19.9091 -20.1297 0 11.2801 -9.90485 0 20.5135 -19.5435 0 11.1014 3.09123 0 11.0859 4.22126 0 19.746 -8.26371 0 20.3193 -5.41736 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel2-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel3">
+          <float_array id="DrawCall_0110-mesh-map-channel3-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel3-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel4">
+          <float_array id="DrawCall_0110-mesh-map-channel4-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel4-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel5">
+          <float_array id="DrawCall_0110-mesh-map-channel5-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel5-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel6">
+          <float_array id="DrawCall_0110-mesh-map-channel6-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel6-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel7">
+          <float_array id="DrawCall_0110-mesh-map-channel7-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel7-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0110-mesh-map-channel8">
+          <float_array id="DrawCall_0110-mesh-map-channel8-array" count="138">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0110-mesh-map-channel8-array" count="46" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DrawCall_0110-mesh-vertices">
+          <input semantic="POSITION" source="#DrawCall_0110-mesh-positions"/>
+        </vertices>
+        <triangles material="_7bdaebd.dds" count="24">
+          <input semantic="VERTEX" source="#DrawCall_0110-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#DrawCall_0110-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel3" offset="4" set="3"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel4" offset="5" set="4"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel5" offset="6" set="5"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel6" offset="7" set="6"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel7" offset="8" set="7"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0110-mesh-map-channel8" offset="9" set="8"/>
+          <p>0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 9 9 9 9 9 9 9 9 9 9 11 11 11 11 11 11 11 11 11 11 10 10 10 10 10 10 10 10 10 10 13 12 13 13 13 13 13 13 13 13 12 13 12 12 12 12 12 12 12 12 14 14 14 14 14 14 14 14 14 14 15 15 15 15 15 15 15 15 15 15 13 16 13 13 13 13 13 13 13 13 14 17 14 14 14 14 14 14 14 14 15 15 15 15 15 15 15 15 15 15 14 17 14 14 14 14 14 14 14 14 16 18 16 16 16 16 16 16 16 16 17 19 17 17 17 17 17 17 17 17 18 20 18 18 18 18 18 18 18 18 19 21 19 19 19 19 19 19 19 19 18 20 18 18 18 18 18 18 18 18 20 22 20 20 20 20 20 20 20 20 19 21 19 19 19 19 19 19 19 19 22 23 22 22 22 22 22 22 22 22 21 24 21 21 21 21 21 21 21 21 23 25 23 23 23 23 23 23 23 23 24 26 24 24 24 24 24 24 24 24 22 23 22 22 22 22 22 22 22 22 23 25 23 23 23 23 23 23 23 23 24 27 24 24 24 24 24 24 24 24 23 28 23 23 23 23 23 23 23 23 25 29 25 25 25 25 25 25 25 25 26 30 26 26 26 26 26 26 26 26 27 31 27 27 27 27 27 27 27 27 28 32 28 28 28 28 28 28 28 28 27 31 27 27 27 27 27 27 27 27 29 33 29 29 29 29 29 29 29 29 28 32 28 28 28 28 28 28 28 28 28 32 28 28 28 28 28 28 28 28 29 33 29 29 29 29 29 29 29 29 30 34 30 30 30 30 30 30 30 30 29 33 29 29 29 29 29 29 29 29 31 35 31 31 31 31 31 31 31 31 30 34 30 30 30 30 30 30 30 30 32 36 32 32 32 32 32 32 32 32 33 37 33 33 33 33 33 33 33 33 34 38 34 34 34 34 34 34 34 34 35 39 35 35 35 35 35 35 35 35 36 40 36 36 36 36 36 36 36 36 37 41 37 37 37 37 37 37 37 37 38 42 38 38 38 38 38 38 38 38 39 43 39 39 39 39 39 39 39 39 40 44 40 40 40 40 40 40 40 40 39 43 39 39 39 39 39 39 39 39 41 45 41 41 41 41 41 41 41 41 40 44 40 40 40 40 40 40 40 40 42 46 42 42 42 42 42 42 42 42 43 47 43 43 43 43 43 43 43 43 44 48 44 44 44 44 44 44 44 44 43 47 43 43 43 43 43 43 43 43 45 49 45 45 45 45 45 45 45 45 44 48 44 44 44 44 44 44 44 44</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DrawCall_0112-mesh" name="DrawCall_0112">
+      <mesh>
+        <source id="DrawCall_0112-mesh-positions">
+          <float_array id="DrawCall_0112-mesh-positions-array" count="24">52.2166 65.4918 36.1301 52.3309 107.027 42.3604 46.5748 66.5368 29.2669 46.689 108.072 35.4972 7.77489 71.1982 -1.09801 13.8291 70.2873 4.86397 7.88914 112.733 5.1323 13.9434 111.822 11.0943</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-normals">
+          <float_array id="DrawCall_0112-mesh-normals-array" count="24">-0.77604 -0.091468 0.624016 -0.77604 -0.091468 0.624016 -0.77604 -0.091468 0.624016 -0.77604 -0.091468 0.624016 -0.705751 -0.103195 0.700904 -0.705751 -0.103195 0.700904 -0.705751 -0.103195 0.700904 -0.705751 -0.103195 0.700904</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel1">
+          <float_array id="DrawCall_0112-mesh-map-channel1-array" count="24">0 0.503906 0 3 0.503906 0 0 0.003906 0 3 0.003906 0 0 0.503906 0 0 1 0 5 0.503906 0 5 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel1-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel2">
+          <float_array id="DrawCall_0112-mesh-map-channel2-array" count="24">74.5576 -67.8117 0 74.7208 -79.6777 0 66.5019 -54.7405 0 66.665 -66.6065 0 11.1014 3.09123 0 19.746 -8.26371 0 11.2645 -8.77475 0 19.9091 -20.1297 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel2-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel3">
+          <float_array id="DrawCall_0112-mesh-map-channel3-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel3-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel4">
+          <float_array id="DrawCall_0112-mesh-map-channel4-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel4-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel5">
+          <float_array id="DrawCall_0112-mesh-map-channel5-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel5-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel6">
+          <float_array id="DrawCall_0112-mesh-map-channel6-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel6-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel7">
+          <float_array id="DrawCall_0112-mesh-map-channel7-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel7-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0112-mesh-map-channel8">
+          <float_array id="DrawCall_0112-mesh-map-channel8-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0112-mesh-map-channel8-array" count="8" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DrawCall_0112-mesh-vertices">
+          <input semantic="POSITION" source="#DrawCall_0112-mesh-positions"/>
+        </vertices>
+        <triangles material="_59ba760.dds" count="4">
+          <input semantic="VERTEX" source="#DrawCall_0112-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#DrawCall_0112-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel3" offset="4" set="3"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel4" offset="5" set="4"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel5" offset="6" set="5"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel6" offset="7" set="6"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel7" offset="8" set="7"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0112-mesh-map-channel8" offset="9" set="8"/>
+          <p>0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="DrawCall_0113-mesh" name="DrawCall_0113">
+      <mesh>
+        <source id="DrawCall_0113-mesh-positions">
+          <float_array id="DrawCall_0113-mesh-positions-array" count="36">46.689 108.072 35.4972 13.9434 111.822 11.0943 46.6509 94.2269 33.4205 13.9053 97.9774 9.01752 13.8291 70.2873 4.86397 46.5748 66.5368 29.2669 13.8672 84.1323 6.94074 46.6128 80.3819 31.3437 46.6509 94.2269 33.4205 13.9053 97.9774 9.01752 46.6128 80.3819 31.3437 13.8672 84.1323 6.94074</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-normals">
+          <float_array id="DrawCall_0113-mesh-normals-array" count="36">-0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789884 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789884 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885 -0.602025 -0.116827 0.789885</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel1">
+          <float_array id="DrawCall_0113-mesh-map-channel1-array" count="36">3 -86.707 0 3 -90.6992 0 2 -86.7031 0 2 -90.6992 0 0 -90.6992 0 0 -86.7031 0 1 -90.6992 0 1 -86.707 0 2 -86.1992 0 2 -90.1992 0 1 -86.2031 0 1 -90.1992 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel1-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel2">
+          <float_array id="DrawCall_0113-mesh-map-channel2-array" count="36">66.665 -66.6065 0 19.9091 -20.1297 0 66.6107 -62.6512 0 19.8547 -16.1744 0 19.746 -8.26371 0 66.5019 -54.7405 0 19.8003 -12.219 0 66.5563 -58.6958 0 66.6107 -62.6512 0 19.8547 -16.1744 0 66.5563 -58.6958 0 19.8003 -12.219 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel2-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel3">
+          <float_array id="DrawCall_0113-mesh-map-channel3-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel3-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel4">
+          <float_array id="DrawCall_0113-mesh-map-channel4-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel4-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel5">
+          <float_array id="DrawCall_0113-mesh-map-channel5-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel5-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel6">
+          <float_array id="DrawCall_0113-mesh-map-channel6-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel6-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel7">
+          <float_array id="DrawCall_0113-mesh-map-channel7-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel7-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="DrawCall_0113-mesh-map-channel8">
+          <float_array id="DrawCall_0113-mesh-map-channel8-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#DrawCall_0113-mesh-map-channel8-array" count="12" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="DrawCall_0113-mesh-vertices">
+          <input semantic="POSITION" source="#DrawCall_0113-mesh-positions"/>
+        </vertices>
+        <triangles material="_33cef7a.dds" count="6">
+          <input semantic="VERTEX" source="#DrawCall_0113-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#DrawCall_0113-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel2" offset="3" set="2"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel3" offset="4" set="3"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel4" offset="5" set="4"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel5" offset="6" set="5"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel6" offset="7" set="6"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel7" offset="8" set="7"/>
+          <input semantic="TEXCOORD" source="#DrawCall_0113-mesh-map-channel8" offset="9" set="8"/>
+          <p>0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 2 2 2 2 2 2 2 2 2 2 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 9 9 9 9 9 9 9 9 9 9 11 11 11 11 11 11 11 11 11 11 10 10 10 10 10 10 10 10 10 10</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Ramp.max" name="Ramp_max">
+      <node id="DrawCall_0111-node" name="DrawCall_0111" type="NODE">
+        <translate>-30.0529 -90.8889 -4.89359</translate>
+        <rotate>1 0 0 -8.48025</rotate>
+        <instance_geometry url="#DrawCall_0111-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_7bdaebd.dds" target="#_7bdaebd.dds">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <user_properties>Call: DrawIndexedPrimitiveUP(D3DPT_TRIANGLELIST,&#13;
+   MinVertexIndex: 0,&#13;
+   NumVertices: 12,&#13;
+   primCount: 6,&#13;
+   indexDataFormat: D3DFMT_INDEX16,&#13;
+   VertexStreamZeroStride: 32),&#13;
+Pre-TnL vertex cache (16 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (20 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (24 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (32 vertices) efficiency: 1.00&#13;
+&#13;
+Post-TnL vertex cache (16 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (20 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (24 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (32 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Declaration&#13;
+*********************************************&#13;
+&#13;
+Stream: 0, Offset: 0, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_POSITION,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 12, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_NORMAL,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 24, Type: D3DDECLTYPE_FLOAT2,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_TEXCOORD,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Total elements: 4&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_NORMAL, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+   2: Usage: D3DDECLUSAGE_POSITION, UsageIndex: 0&#13;
+&#13;
+Vertex shader: aeb0ea01.vsh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 cDepth;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 col;&#13;
+//           float4 cosatt;&#13;
+//           float4 distatt;&#13;
+//           float4 pos;&#13;
+//           float4 dir;&#13;
+//&#13;
+//       } lights[8];&#13;
+//&#13;
+//   } clights;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 C0;&#13;
+//       float4 C1;&#13;
+//       float4 C2;&#13;
+//       float4 C3;&#13;
+//&#13;
+//   } cmtrl;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 N0;&#13;
+//       float4 N1;&#13;
+//       float4 N2;&#13;
+//&#13;
+//   } cpnmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[64];&#13;
+//&#13;
+//   } cpostmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 T3;&#13;
+//&#13;
+//   } cproj;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[24];&#13;
+//&#13;
+//   } ctexmtx;&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   cpnmtx       c0       6&#13;
+//   cproj        c6       4&#13;
+//   cmtrl        c10      3&#13;
+//   clights      c14      4&#13;
+//   ctexmtx      c54      2&#13;
+//   cpostmtx     c174    64&#13;
+//   cDepth       c238     1&#13;
+//&#13;
+&#13;
+    vs_3_0&#13;
+    def c11, 1, 0, 0, 0&#13;
+    dcl_normal v0&#13;
+    dcl_texcoord v1&#13;
+    dcl_position v2&#13;
+    dcl_position o0&#13;
+    dcl_color o1&#13;
+    dcl_color1 o2&#13;
+    dcl_texcoord o3.xyz&#13;
+    dcl_texcoord1 o4&#13;
+    dp3 r0.x, c3, v0&#13;
+    dp3 r0.y, c4, v0&#13;
+    dp3 r0.z, c5, v0&#13;
+    nrm r1.xyz, r0&#13;
+    dp4 r0.x, c0, v2&#13;
+    dp4 r0.y, c1, v2&#13;
+    dp4 r0.z, c2, v2&#13;
+    add r2.xyz, -r0, c17&#13;
+    nrm r3.xyz, r2&#13;
+    dp3 r1.x, r3, r1&#13;
+    max r1.x, r1.x, c11.y&#13;
+    mov r2.xyz, c14&#13;
+    mad_sat r1.xyz, r1.x, r2, c10&#13;
+    mul o1.xyz, r1, c12&#13;
+    mad r1, v1.xyxx, c11.xxyy, c11.yyxx&#13;
+    dp4 r2.x, r1, c54&#13;
+    dp4 r2.y, r1, c55&#13;
+    mov r2.z, c11.x&#13;
+    dp3 r1.x, c235, r2&#13;
+    add o3.x, r1.x, c235.w&#13;
+    dp3 r1.x, c236, r2&#13;
+    dp3 r1.y, c237, r2&#13;
+    add o3.z, r1.y, c237.w&#13;
+    add o3.y, r1.x, c236.w&#13;
+    mov r0.w, c11.x&#13;
+    dp4 r1.x, c8, r0&#13;
+    mul r1.y, r1.x, c238.y&#13;
+    mov o4.z, r1.x&#13;
+    dp4 r2.w, c9, r0&#13;
+    mad o0.z, c238.x, r2.w, r1.y&#13;
+    dp4 r2.x, c6, r0&#13;
+    dp4 r2.y, c7, r0&#13;
+    mov o0.xyw, r2&#13;
+    mov o4.xyw, r2&#13;
+    mov o1.w, c12.w&#13;
+    mov o2, c11.yyyx&#13;
+&#13;
+// approximately 40 instruction slots used&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Pixel Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_COLOR, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+&#13;
+Pixel shader: 9f314692.psh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 alphaRef;&#13;
+//   sampler2D samp0;&#13;
+//   float4 texdim[8];&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   alphaRef     c8       1&#13;
+//   texdim       c9       1&#13;
+//   samp0        s0       1&#13;
+//&#13;
+&#13;
+    ps_3_0&#13;
+    def c0, 0.000980392215, -0, -1, 0&#13;
+    dcl_color v0&#13;
+    dcl_texcoord v1.xy&#13;
+    dcl_2d s0&#13;
+    mul r0.xy, c9.zwzw, v1&#13;
+    mul r0.xy, r0, c9&#13;
+    texld r0, r0, s0&#13;
+    mul_sat r1.w, r0.w, v0.w&#13;
+    mov r2.x, c0.x&#13;
+    add r0.w, r2.x, c8.x&#13;
+    add r0.w, -r0.w, r1.w&#13;
+    cmp r2, r0.w, c0.y, c0.z&#13;
+    texkill r2&#13;
+    mul_sat r1.xyz, r0, v0&#13;
+    cmp oC0, r0.w, r1, c0.w&#13;
+&#13;
+// approximately 11 instruction slots used (2 texture, 9 arithmetic)&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Textures&#13;
+*********************************************&#13;
+&#13;
+Stage: 0, Texture: 07bdaebd.dds,&#13;
+   2D texture, Width: 64, Height:64,&#13;
+   Format: D3DFMT_A8R8G8B8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_MIRROR&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 1, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 2, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 3, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 4, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 5, Texture: texture not found.&#13;
+   2D texture, Width: 128, Height:128,&#13;
+   Format: D3DFMT_A8L8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 6, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 7, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              RenderState&#13;
+*********************************************&#13;
+&#13;
+D3DRS_ZENABLE = 1&#13;
+D3DRS_FILLMODE = 3&#13;
+D3DRS_SHADEMODE = 2&#13;
+D3DRS_ZWRITEENABLE = 1&#13;
+D3DRS_ALPHATESTENABLE = 0&#13;
+D3DRS_LASTPIXEL = 1&#13;
+D3DRS_SRCBLEND = 5&#13;
+D3DRS_DESTBLEND = 2&#13;
+D3DRS_CULLMODE = 1&#13;
+D3DRS_ZFUNC = 2&#13;
+D3DRS_ALPHAREF = 0&#13;
+D3DRS_ALPHAFUNC = 8&#13;
+D3DRS_DITHERENABLE = 1&#13;
+D3DRS_ALPHABLENDENABLE = 0&#13;
+D3DRS_FOGENABLE = 0&#13;
+D3DRS_SPECULARENABLE = 0&#13;
+D3DRS_FOGCOLOR = 0x0&#13;
+D3DRS_FOGTABLEMODE = 0&#13;
+D3DRS_FOGSTART = 0.000000&#13;
+D3DRS_FOGEND = 1.000000&#13;
+D3DRS_FOGDENSITY = 1.000000&#13;
+D3DRS_RANGEFOGENABLE = 0&#13;
+D3DRS_STENCILENABLE = 0&#13;
+D3DRS_STENCILFAIL = 1&#13;
+D3DRS_STENCILZFAIL = 1&#13;
+D3DRS_STENCILPASS = 1&#13;
+D3DRS_STENCILFUNC = 8&#13;
+D3DRS_STENCILREF = 0&#13;
+D3DRS_STENCILMASK = 0xFFFFFFFF&#13;
+D3DRS_STENCILWRITEMASK = 0xFFFFFFFF&#13;
+D3DRS_TEXTUREFACTOR = 0xFFFFFFFF&#13;
+D3DRS_WRAP0 = 0&#13;
+D3DRS_WRAP1 = 0&#13;
+D3DRS_WRAP2 = 0&#13;
+D3DRS_WRAP3 = 0&#13;
+D3DRS_WRAP4 = 0&#13;
+D3DRS_WRAP5 = 0&#13;
+D3DRS_WRAP6 = 0&#13;
+D3DRS_WRAP7 = 0&#13;
+D3DRS_CLIPPING = 1&#13;
+D3DRS_LIGHTING = 1&#13;
+D3DRS_AMBIENT = 0x0&#13;
+D3DRS_FOGVERTEXMODE = 0&#13;
+D3DRS_COLORVERTEX = 1&#13;
+D3DRS_LOCALVIEWER = 1&#13;
+D3DRS_NORMALIZENORMALS = 0&#13;
+D3DRS_DIFFUSEMATERIALSOURCE = 1&#13;
+D3DRS_SPECULARMATERIALSOURCE = 2&#13;
+D3DRS_AMBIENTMATERIALSOURCE = 0&#13;
+D3DRS_EMISSIVEMATERIALSOURCE = 0&#13;
+D3DRS_VERTEXBLEND = 0&#13;
+D3DRS_CLIPPLANEENABLE = 0&#13;
+D3DRS_POINTSIZE = 1.850000&#13;
+D3DRS_POINTSIZE_MIN = 1.000000&#13;
+D3DRS_POINTSPRITEENABLE = 0&#13;
+D3DRS_POINTSCALEENABLE = 0&#13;
+D3DRS_POINTSCALE_A = 1.000000&#13;
+D3DRS_POINTSCALE_B = 0.000000&#13;
+D3DRS_POINTSCALE_C = 0.000000&#13;
+D3DRS_MULTISAMPLEANTIALIAS = 1&#13;
+D3DRS_MULTISAMPLEMASK = 0xFFFFFFFF&#13;
+D3DRS_PATCHEDGESTYLE = 0&#13;
+D3DRS_DEBUGMONITORTOKEN = -1163015426&#13;
+D3DRS_POINTSIZE_MAX = 256.000000&#13;
+D3DRS_INDEXEDVERTEXBLENDENABLE = 0&#13;
+D3DRS_COLORWRITEENABLE = 0x7&#13;
+D3DRS_TWEENFACTOR = 0.000000&#13;
+D3DRS_BLENDOP = 1&#13;
+D3DRS_POSITIONDEGREE = 3&#13;
+D3DRS_NORMALDEGREE = 1&#13;
+D3DRS_SCISSORTESTENABLE = 1&#13;
+D3DRS_SLOPESCALEDEPTHBIAS = 0&#13;
+D3DRS_ANTIALIASEDLINEENABLE = 0&#13;
+D3DRS_MINTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_MAXTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_ADAPTIVETESS_X = 0&#13;
+D3DRS_ADAPTIVETESS_Y = 0&#13;
+D3DRS_ADAPTIVETESS_Z = 1065353216&#13;
+D3DRS_ADAPTIVETESS_W = 0&#13;
+D3DRS_ENABLEADAPTIVETESSELLATION = 0&#13;
+D3DRS_TWOSIDEDSTENCILMODE = 0&#13;
+D3DRS_CCW_STENCILFAIL = 1&#13;
+D3DRS_CCW_STENCILZFAIL = 1&#13;
+D3DRS_CCW_STENCILPASS = 1&#13;
+D3DRS_CCW_STENCILFUNC = 8&#13;
+D3DRS_COLORWRITEENABLE1 = 0xF&#13;
+D3DRS_COLORWRITEENABLE2 = 0xF&#13;
+D3DRS_COLORWRITEENABLE3 = 0xF&#13;
+D3DRS_BLENDFACTOR = 0xFFFFFFFF&#13;
+D3DRS_SRGBWRITEENABLE = 0&#13;
+D3DRS_DEPTHBIAS = 0.000000&#13;
+D3DRS_WRAP8 = 0&#13;
+D3DRS_WRAP9 = 0&#13;
+D3DRS_WRAP10 = 0&#13;
+D3DRS_WRAP11 = 0&#13;
+D3DRS_WRAP12 = 0&#13;
+D3DRS_WRAP13 = 0&#13;
+D3DRS_WRAP14 = 0&#13;
+D3DRS_WRAP15 = 0&#13;
+D3DRS_SEPARATEALPHABLENDENABLE = 0&#13;
+D3DRS_SRCBLENDALPHA = 2&#13;
+D3DRS_DESTBLENDALPHA = 1&#13;
+D3DRS_BLENDOPALPHA = 1&#13;
+&#13;
+*********************************************&#13;
+              Render Target&#13;
+*********************************************&#13;
+&#13;
+IsBackBuffer: false,&#13;
+   Is2DTexture: true [RT ptr:0x19ac8280, texture ptr:0x0fb38380]&#13;
+   Width: 592, Height:488,&#13;
+   Format: D3DFMT_A8R8G8B8,&#13;
+   Pool: D3DPOOL_DEFAULT,&#13;
+   Usage: D3DUSAGE_RENDERTARGET,&#13;
+   MultisampleType: D3DMULTISAMPLE_NONE,&#13;
+   MultiSampleQuality: 0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              ViewPort&#13;
+*********************************************&#13;
+&#13;
+X: 0, Y: 0,&#13;
+Width: 592, Height: 444,&#13;
+MinZ: 0.000000, MaxZ: 1.000000&#13;
+&#13;
+</user_properties>
+          </technique>
+        </extra>
+      </node>
+      <node id="DrawCall_0110-node" name="DrawCall_0110" type="NODE">
+        <translate>-30.0529 -90.8889 -4.89359</translate>
+        <rotate>1 0 0 -8.48025</rotate>
+        <instance_geometry url="#DrawCall_0110-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_7bdaebd.dds" target="#_7bdaebd.dds">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <user_properties>Call: DrawIndexedPrimitiveUP(D3DPT_TRIANGLELIST,&#13;
+   MinVertexIndex: 0,&#13;
+   NumVertices: 46,&#13;
+   primCount: 24,&#13;
+   indexDataFormat: D3DFMT_INDEX16,&#13;
+   VertexStreamZeroStride: 32),&#13;
+Pre-TnL vertex cache (16 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (20 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (24 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (32 vertices) efficiency: 1.00&#13;
+&#13;
+Post-TnL vertex cache (16 vertices) efficiency: 1.92,&#13;
+after optimization: D3DX: 1.92, LRU: 1.92&#13;
+Post-TnL vertex cache (20 vertices) efficiency: 1.92,&#13;
+after optimization: D3DX: 1.92, LRU: 1.92&#13;
+Post-TnL vertex cache (24 vertices) efficiency: 1.92,&#13;
+after optimization: D3DX: 1.92, LRU: 1.92&#13;
+Post-TnL vertex cache (32 vertices) efficiency: 1.92,&#13;
+after optimization: D3DX: 1.92, LRU: 1.92&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Declaration&#13;
+*********************************************&#13;
+&#13;
+Stream: 0, Offset: 0, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_POSITION,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 12, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_NORMAL,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 24, Type: D3DDECLTYPE_FLOAT2,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_TEXCOORD,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Total elements: 4&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_NORMAL, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+   2: Usage: D3DDECLUSAGE_POSITION, UsageIndex: 0&#13;
+&#13;
+Vertex shader: aeb0ea01.vsh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 cDepth;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 col;&#13;
+//           float4 cosatt;&#13;
+//           float4 distatt;&#13;
+//           float4 pos;&#13;
+//           float4 dir;&#13;
+//&#13;
+//       } lights[8];&#13;
+//&#13;
+//   } clights;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 C0;&#13;
+//       float4 C1;&#13;
+//       float4 C2;&#13;
+//       float4 C3;&#13;
+//&#13;
+//   } cmtrl;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 N0;&#13;
+//       float4 N1;&#13;
+//       float4 N2;&#13;
+//&#13;
+//   } cpnmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[64];&#13;
+//&#13;
+//   } cpostmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 T3;&#13;
+//&#13;
+//   } cproj;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[24];&#13;
+//&#13;
+//   } ctexmtx;&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   cpnmtx       c0       6&#13;
+//   cproj        c6       4&#13;
+//   cmtrl        c10      3&#13;
+//   clights      c14      4&#13;
+//   ctexmtx      c54      2&#13;
+//   cpostmtx     c174    64&#13;
+//   cDepth       c238     1&#13;
+//&#13;
+&#13;
+    vs_3_0&#13;
+    def c11, 1, 0, 0, 0&#13;
+    dcl_normal v0&#13;
+    dcl_texcoord v1&#13;
+    dcl_position v2&#13;
+    dcl_position o0&#13;
+    dcl_color o1&#13;
+    dcl_color1 o2&#13;
+    dcl_texcoord o3.xyz&#13;
+    dcl_texcoord1 o4&#13;
+    dp3 r0.x, c3, v0&#13;
+    dp3 r0.y, c4, v0&#13;
+    dp3 r0.z, c5, v0&#13;
+    nrm r1.xyz, r0&#13;
+    dp4 r0.x, c0, v2&#13;
+    dp4 r0.y, c1, v2&#13;
+    dp4 r0.z, c2, v2&#13;
+    add r2.xyz, -r0, c17&#13;
+    nrm r3.xyz, r2&#13;
+    dp3 r1.x, r3, r1&#13;
+    max r1.x, r1.x, c11.y&#13;
+    mov r2.xyz, c14&#13;
+    mad_sat r1.xyz, r1.x, r2, c10&#13;
+    mul o1.xyz, r1, c12&#13;
+    mad r1, v1.xyxx, c11.xxyy, c11.yyxx&#13;
+    dp4 r2.x, r1, c54&#13;
+    dp4 r2.y, r1, c55&#13;
+    mov r2.z, c11.x&#13;
+    dp3 r1.x, c235, r2&#13;
+    add o3.x, r1.x, c235.w&#13;
+    dp3 r1.x, c236, r2&#13;
+    dp3 r1.y, c237, r2&#13;
+    add o3.z, r1.y, c237.w&#13;
+    add o3.y, r1.x, c236.w&#13;
+    mov r0.w, c11.x&#13;
+    dp4 r1.x, c8, r0&#13;
+    mul r1.y, r1.x, c238.y&#13;
+    mov o4.z, r1.x&#13;
+    dp4 r2.w, c9, r0&#13;
+    mad o0.z, c238.x, r2.w, r1.y&#13;
+    dp4 r2.x, c6, r0&#13;
+    dp4 r2.y, c7, r0&#13;
+    mov o0.xyw, r2&#13;
+    mov o4.xyw, r2&#13;
+    mov o1.w, c12.w&#13;
+    mov o2, c11.yyyx&#13;
+&#13;
+// approximately 40 instruction slots used&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Pixel Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_COLOR, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+&#13;
+Pixel shader: 9f314692.psh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 alphaRef;&#13;
+//   sampler2D samp0;&#13;
+//   float4 texdim[8];&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   alphaRef     c8       1&#13;
+//   texdim       c9       1&#13;
+//   samp0        s0       1&#13;
+//&#13;
+&#13;
+    ps_3_0&#13;
+    def c0, 0.000980392215, -0, -1, 0&#13;
+    dcl_color v0&#13;
+    dcl_texcoord v1.xy&#13;
+    dcl_2d s0&#13;
+    mul r0.xy, c9.zwzw, v1&#13;
+    mul r0.xy, r0, c9&#13;
+    texld r0, r0, s0&#13;
+    mul_sat r1.w, r0.w, v0.w&#13;
+    mov r2.x, c0.x&#13;
+    add r0.w, r2.x, c8.x&#13;
+    add r0.w, -r0.w, r1.w&#13;
+    cmp r2, r0.w, c0.y, c0.z&#13;
+    texkill r2&#13;
+    mul_sat r1.xyz, r0, v0&#13;
+    cmp oC0, r0.w, r1, c0.w&#13;
+&#13;
+// approximately 11 instruction slots used (2 texture, 9 arithmetic)&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Textures&#13;
+*********************************************&#13;
+&#13;
+Stage: 0, Texture: 07bdaebd.dds,&#13;
+   2D texture, Width: 64, Height:64,&#13;
+   Format: D3DFMT_A8R8G8B8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 1, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 2, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 3, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 4, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 5, Texture: texture not found.&#13;
+   2D texture, Width: 128, Height:128,&#13;
+   Format: D3DFMT_A8L8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 6, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 7, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              RenderState&#13;
+*********************************************&#13;
+&#13;
+D3DRS_ZENABLE = 1&#13;
+D3DRS_FILLMODE = 3&#13;
+D3DRS_SHADEMODE = 2&#13;
+D3DRS_ZWRITEENABLE = 1&#13;
+D3DRS_ALPHATESTENABLE = 0&#13;
+D3DRS_LASTPIXEL = 1&#13;
+D3DRS_SRCBLEND = 5&#13;
+D3DRS_DESTBLEND = 2&#13;
+D3DRS_CULLMODE = 1&#13;
+D3DRS_ZFUNC = 2&#13;
+D3DRS_ALPHAREF = 0&#13;
+D3DRS_ALPHAFUNC = 8&#13;
+D3DRS_DITHERENABLE = 1&#13;
+D3DRS_ALPHABLENDENABLE = 0&#13;
+D3DRS_FOGENABLE = 0&#13;
+D3DRS_SPECULARENABLE = 0&#13;
+D3DRS_FOGCOLOR = 0x0&#13;
+D3DRS_FOGTABLEMODE = 0&#13;
+D3DRS_FOGSTART = 0.000000&#13;
+D3DRS_FOGEND = 1.000000&#13;
+D3DRS_FOGDENSITY = 1.000000&#13;
+D3DRS_RANGEFOGENABLE = 0&#13;
+D3DRS_STENCILENABLE = 0&#13;
+D3DRS_STENCILFAIL = 1&#13;
+D3DRS_STENCILZFAIL = 1&#13;
+D3DRS_STENCILPASS = 1&#13;
+D3DRS_STENCILFUNC = 8&#13;
+D3DRS_STENCILREF = 0&#13;
+D3DRS_STENCILMASK = 0xFFFFFFFF&#13;
+D3DRS_STENCILWRITEMASK = 0xFFFFFFFF&#13;
+D3DRS_TEXTUREFACTOR = 0xFFFFFFFF&#13;
+D3DRS_WRAP0 = 0&#13;
+D3DRS_WRAP1 = 0&#13;
+D3DRS_WRAP2 = 0&#13;
+D3DRS_WRAP3 = 0&#13;
+D3DRS_WRAP4 = 0&#13;
+D3DRS_WRAP5 = 0&#13;
+D3DRS_WRAP6 = 0&#13;
+D3DRS_WRAP7 = 0&#13;
+D3DRS_CLIPPING = 1&#13;
+D3DRS_LIGHTING = 1&#13;
+D3DRS_AMBIENT = 0x0&#13;
+D3DRS_FOGVERTEXMODE = 0&#13;
+D3DRS_COLORVERTEX = 1&#13;
+D3DRS_LOCALVIEWER = 1&#13;
+D3DRS_NORMALIZENORMALS = 0&#13;
+D3DRS_DIFFUSEMATERIALSOURCE = 1&#13;
+D3DRS_SPECULARMATERIALSOURCE = 2&#13;
+D3DRS_AMBIENTMATERIALSOURCE = 0&#13;
+D3DRS_EMISSIVEMATERIALSOURCE = 0&#13;
+D3DRS_VERTEXBLEND = 0&#13;
+D3DRS_CLIPPLANEENABLE = 0&#13;
+D3DRS_POINTSIZE = 1.850000&#13;
+D3DRS_POINTSIZE_MIN = 1.000000&#13;
+D3DRS_POINTSPRITEENABLE = 0&#13;
+D3DRS_POINTSCALEENABLE = 0&#13;
+D3DRS_POINTSCALE_A = 1.000000&#13;
+D3DRS_POINTSCALE_B = 0.000000&#13;
+D3DRS_POINTSCALE_C = 0.000000&#13;
+D3DRS_MULTISAMPLEANTIALIAS = 1&#13;
+D3DRS_MULTISAMPLEMASK = 0xFFFFFFFF&#13;
+D3DRS_PATCHEDGESTYLE = 0&#13;
+D3DRS_DEBUGMONITORTOKEN = -1163015426&#13;
+D3DRS_POINTSIZE_MAX = 256.000000&#13;
+D3DRS_INDEXEDVERTEXBLENDENABLE = 0&#13;
+D3DRS_COLORWRITEENABLE = 0x7&#13;
+D3DRS_TWEENFACTOR = 0.000000&#13;
+D3DRS_BLENDOP = 1&#13;
+D3DRS_POSITIONDEGREE = 3&#13;
+D3DRS_NORMALDEGREE = 1&#13;
+D3DRS_SCISSORTESTENABLE = 1&#13;
+D3DRS_SLOPESCALEDEPTHBIAS = 0&#13;
+D3DRS_ANTIALIASEDLINEENABLE = 0&#13;
+D3DRS_MINTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_MAXTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_ADAPTIVETESS_X = 0&#13;
+D3DRS_ADAPTIVETESS_Y = 0&#13;
+D3DRS_ADAPTIVETESS_Z = 1065353216&#13;
+D3DRS_ADAPTIVETESS_W = 0&#13;
+D3DRS_ENABLEADAPTIVETESSELLATION = 0&#13;
+D3DRS_TWOSIDEDSTENCILMODE = 0&#13;
+D3DRS_CCW_STENCILFAIL = 1&#13;
+D3DRS_CCW_STENCILZFAIL = 1&#13;
+D3DRS_CCW_STENCILPASS = 1&#13;
+D3DRS_CCW_STENCILFUNC = 8&#13;
+D3DRS_COLORWRITEENABLE1 = 0xF&#13;
+D3DRS_COLORWRITEENABLE2 = 0xF&#13;
+D3DRS_COLORWRITEENABLE3 = 0xF&#13;
+D3DRS_BLENDFACTOR = 0xFFFFFFFF&#13;
+D3DRS_SRGBWRITEENABLE = 0&#13;
+D3DRS_DEPTHBIAS = 0.000000&#13;
+D3DRS_WRAP8 = 0&#13;
+D3DRS_WRAP9 = 0&#13;
+D3DRS_WRAP10 = 0&#13;
+D3DRS_WRAP11 = 0&#13;
+D3DRS_WRAP12 = 0&#13;
+D3DRS_WRAP13 = 0&#13;
+D3DRS_WRAP14 = 0&#13;
+D3DRS_WRAP15 = 0&#13;
+D3DRS_SEPARATEALPHABLENDENABLE = 0&#13;
+D3DRS_SRCBLENDALPHA = 2&#13;
+D3DRS_DESTBLENDALPHA = 1&#13;
+D3DRS_BLENDOPALPHA = 1&#13;
+&#13;
+*********************************************&#13;
+              Render Target&#13;
+*********************************************&#13;
+&#13;
+IsBackBuffer: false,&#13;
+   Is2DTexture: true [RT ptr:0x19ac8280, texture ptr:0x0fb38380]&#13;
+   Width: 592, Height:488,&#13;
+   Format: D3DFMT_A8R8G8B8,&#13;
+   Pool: D3DPOOL_DEFAULT,&#13;
+   Usage: D3DUSAGE_RENDERTARGET,&#13;
+   MultisampleType: D3DMULTISAMPLE_NONE,&#13;
+   MultiSampleQuality: 0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              ViewPort&#13;
+*********************************************&#13;
+&#13;
+X: 0, Y: 0,&#13;
+Width: 592, Height: 444,&#13;
+MinZ: 0.000000, MaxZ: 1.000000&#13;
+&#13;
+</user_properties>
+          </technique>
+        </extra>
+      </node>
+      <node id="DrawCall_0112-node" name="DrawCall_0112" type="NODE">
+        <translate>-30.0529 -90.8889 -4.89359</translate>
+        <rotate>1 0 0 -8.48025</rotate>
+        <instance_geometry url="#DrawCall_0112-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_59ba760.dds" target="#_59ba760.dds">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <user_properties>Call: DrawIndexedPrimitiveUP(D3DPT_TRIANGLELIST,&#13;
+   MinVertexIndex: 0,&#13;
+   NumVertices: 8,&#13;
+   primCount: 4,&#13;
+   indexDataFormat: D3DFMT_INDEX16,&#13;
+   VertexStreamZeroStride: 32),&#13;
+Pre-TnL vertex cache (16 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (20 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (24 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (32 vertices) efficiency: 1.00&#13;
+&#13;
+Post-TnL vertex cache (16 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (20 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (24 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (32 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Declaration&#13;
+*********************************************&#13;
+&#13;
+Stream: 0, Offset: 0, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_POSITION,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 12, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_NORMAL,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 24, Type: D3DDECLTYPE_FLOAT2,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_TEXCOORD,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Total elements: 4&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_NORMAL, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+   2: Usage: D3DDECLUSAGE_POSITION, UsageIndex: 0&#13;
+&#13;
+Vertex shader: aeb0ea01.vsh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 cDepth;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 col;&#13;
+//           float4 cosatt;&#13;
+//           float4 distatt;&#13;
+//           float4 pos;&#13;
+//           float4 dir;&#13;
+//&#13;
+//       } lights[8];&#13;
+//&#13;
+//   } clights;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 C0;&#13;
+//       float4 C1;&#13;
+//       float4 C2;&#13;
+//       float4 C3;&#13;
+//&#13;
+//   } cmtrl;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 N0;&#13;
+//       float4 N1;&#13;
+//       float4 N2;&#13;
+//&#13;
+//   } cpnmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[64];&#13;
+//&#13;
+//   } cpostmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 T3;&#13;
+//&#13;
+//   } cproj;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[24];&#13;
+//&#13;
+//   } ctexmtx;&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   cpnmtx       c0       6&#13;
+//   cproj        c6       4&#13;
+//   cmtrl        c10      3&#13;
+//   clights      c14      4&#13;
+//   ctexmtx      c54      2&#13;
+//   cpostmtx     c174    64&#13;
+//   cDepth       c238     1&#13;
+//&#13;
+&#13;
+    vs_3_0&#13;
+    def c11, 1, 0, 0, 0&#13;
+    dcl_normal v0&#13;
+    dcl_texcoord v1&#13;
+    dcl_position v2&#13;
+    dcl_position o0&#13;
+    dcl_color o1&#13;
+    dcl_color1 o2&#13;
+    dcl_texcoord o3.xyz&#13;
+    dcl_texcoord1 o4&#13;
+    dp3 r0.x, c3, v0&#13;
+    dp3 r0.y, c4, v0&#13;
+    dp3 r0.z, c5, v0&#13;
+    nrm r1.xyz, r0&#13;
+    dp4 r0.x, c0, v2&#13;
+    dp4 r0.y, c1, v2&#13;
+    dp4 r0.z, c2, v2&#13;
+    add r2.xyz, -r0, c17&#13;
+    nrm r3.xyz, r2&#13;
+    dp3 r1.x, r3, r1&#13;
+    max r1.x, r1.x, c11.y&#13;
+    mov r2.xyz, c14&#13;
+    mad_sat r1.xyz, r1.x, r2, c10&#13;
+    mul o1.xyz, r1, c12&#13;
+    mad r1, v1.xyxx, c11.xxyy, c11.yyxx&#13;
+    dp4 r2.x, r1, c54&#13;
+    dp4 r2.y, r1, c55&#13;
+    mov r2.z, c11.x&#13;
+    dp3 r1.x, c235, r2&#13;
+    add o3.x, r1.x, c235.w&#13;
+    dp3 r1.x, c236, r2&#13;
+    dp3 r1.y, c237, r2&#13;
+    add o3.z, r1.y, c237.w&#13;
+    add o3.y, r1.x, c236.w&#13;
+    mov r0.w, c11.x&#13;
+    dp4 r1.x, c8, r0&#13;
+    mul r1.y, r1.x, c238.y&#13;
+    mov o4.z, r1.x&#13;
+    dp4 r2.w, c9, r0&#13;
+    mad o0.z, c238.x, r2.w, r1.y&#13;
+    dp4 r2.x, c6, r0&#13;
+    dp4 r2.y, c7, r0&#13;
+    mov o0.xyw, r2&#13;
+    mov o4.xyw, r2&#13;
+    mov o1.w, c12.w&#13;
+    mov o2, c11.yyyx&#13;
+&#13;
+// approximately 40 instruction slots used&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Pixel Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_COLOR, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+&#13;
+Pixel shader: 9f314692.psh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 alphaRef;&#13;
+//   sampler2D samp0;&#13;
+//   float4 texdim[8];&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   alphaRef     c8       1&#13;
+//   texdim       c9       1&#13;
+//   samp0        s0       1&#13;
+//&#13;
+&#13;
+    ps_3_0&#13;
+    def c0, 0.000980392215, -0, -1, 0&#13;
+    dcl_color v0&#13;
+    dcl_texcoord v1.xy&#13;
+    dcl_2d s0&#13;
+    mul r0.xy, c9.zwzw, v1&#13;
+    mul r0.xy, r0, c9&#13;
+    texld r0, r0, s0&#13;
+    mul_sat r1.w, r0.w, v0.w&#13;
+    mov r2.x, c0.x&#13;
+    add r0.w, r2.x, c8.x&#13;
+    add r0.w, -r0.w, r1.w&#13;
+    cmp r2, r0.w, c0.y, c0.z&#13;
+    texkill r2&#13;
+    mul_sat r1.xyz, r0, v0&#13;
+    cmp oC0, r0.w, r1, c0.w&#13;
+&#13;
+// approximately 11 instruction slots used (2 texture, 9 arithmetic)&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Textures&#13;
+*********************************************&#13;
+&#13;
+Stage: 0, Texture: 859ba760.dds,&#13;
+   2D texture, Width: 64, Height:64,&#13;
+   Format: D3DFMT_A8R8G8B8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 1, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 2, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 3, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 4, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 5, Texture: texture not found.&#13;
+   2D texture, Width: 128, Height:128,&#13;
+   Format: D3DFMT_A8L8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 6, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 7, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              RenderState&#13;
+*********************************************&#13;
+&#13;
+D3DRS_ZENABLE = 1&#13;
+D3DRS_FILLMODE = 3&#13;
+D3DRS_SHADEMODE = 2&#13;
+D3DRS_ZWRITEENABLE = 1&#13;
+D3DRS_ALPHATESTENABLE = 0&#13;
+D3DRS_LASTPIXEL = 1&#13;
+D3DRS_SRCBLEND = 5&#13;
+D3DRS_DESTBLEND = 2&#13;
+D3DRS_CULLMODE = 1&#13;
+D3DRS_ZFUNC = 2&#13;
+D3DRS_ALPHAREF = 0&#13;
+D3DRS_ALPHAFUNC = 8&#13;
+D3DRS_DITHERENABLE = 1&#13;
+D3DRS_ALPHABLENDENABLE = 0&#13;
+D3DRS_FOGENABLE = 0&#13;
+D3DRS_SPECULARENABLE = 0&#13;
+D3DRS_FOGCOLOR = 0x0&#13;
+D3DRS_FOGTABLEMODE = 0&#13;
+D3DRS_FOGSTART = 0.000000&#13;
+D3DRS_FOGEND = 1.000000&#13;
+D3DRS_FOGDENSITY = 1.000000&#13;
+D3DRS_RANGEFOGENABLE = 0&#13;
+D3DRS_STENCILENABLE = 0&#13;
+D3DRS_STENCILFAIL = 1&#13;
+D3DRS_STENCILZFAIL = 1&#13;
+D3DRS_STENCILPASS = 1&#13;
+D3DRS_STENCILFUNC = 8&#13;
+D3DRS_STENCILREF = 0&#13;
+D3DRS_STENCILMASK = 0xFFFFFFFF&#13;
+D3DRS_STENCILWRITEMASK = 0xFFFFFFFF&#13;
+D3DRS_TEXTUREFACTOR = 0xFFFFFFFF&#13;
+D3DRS_WRAP0 = 0&#13;
+D3DRS_WRAP1 = 0&#13;
+D3DRS_WRAP2 = 0&#13;
+D3DRS_WRAP3 = 0&#13;
+D3DRS_WRAP4 = 0&#13;
+D3DRS_WRAP5 = 0&#13;
+D3DRS_WRAP6 = 0&#13;
+D3DRS_WRAP7 = 0&#13;
+D3DRS_CLIPPING = 1&#13;
+D3DRS_LIGHTING = 1&#13;
+D3DRS_AMBIENT = 0x0&#13;
+D3DRS_FOGVERTEXMODE = 0&#13;
+D3DRS_COLORVERTEX = 1&#13;
+D3DRS_LOCALVIEWER = 1&#13;
+D3DRS_NORMALIZENORMALS = 0&#13;
+D3DRS_DIFFUSEMATERIALSOURCE = 1&#13;
+D3DRS_SPECULARMATERIALSOURCE = 2&#13;
+D3DRS_AMBIENTMATERIALSOURCE = 0&#13;
+D3DRS_EMISSIVEMATERIALSOURCE = 0&#13;
+D3DRS_VERTEXBLEND = 0&#13;
+D3DRS_CLIPPLANEENABLE = 0&#13;
+D3DRS_POINTSIZE = 1.850000&#13;
+D3DRS_POINTSIZE_MIN = 1.000000&#13;
+D3DRS_POINTSPRITEENABLE = 0&#13;
+D3DRS_POINTSCALEENABLE = 0&#13;
+D3DRS_POINTSCALE_A = 1.000000&#13;
+D3DRS_POINTSCALE_B = 0.000000&#13;
+D3DRS_POINTSCALE_C = 0.000000&#13;
+D3DRS_MULTISAMPLEANTIALIAS = 1&#13;
+D3DRS_MULTISAMPLEMASK = 0xFFFFFFFF&#13;
+D3DRS_PATCHEDGESTYLE = 0&#13;
+D3DRS_DEBUGMONITORTOKEN = -1163015426&#13;
+D3DRS_POINTSIZE_MAX = 256.000000&#13;
+D3DRS_INDEXEDVERTEXBLENDENABLE = 0&#13;
+D3DRS_COLORWRITEENABLE = 0x7&#13;
+D3DRS_TWEENFACTOR = 0.000000&#13;
+D3DRS_BLENDOP = 1&#13;
+D3DRS_POSITIONDEGREE = 3&#13;
+D3DRS_NORMALDEGREE = 1&#13;
+D3DRS_SCISSORTESTENABLE = 1&#13;
+D3DRS_SLOPESCALEDEPTHBIAS = 0&#13;
+D3DRS_ANTIALIASEDLINEENABLE = 0&#13;
+D3DRS_MINTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_MAXTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_ADAPTIVETESS_X = 0&#13;
+D3DRS_ADAPTIVETESS_Y = 0&#13;
+D3DRS_ADAPTIVETESS_Z = 1065353216&#13;
+D3DRS_ADAPTIVETESS_W = 0&#13;
+D3DRS_ENABLEADAPTIVETESSELLATION = 0&#13;
+D3DRS_TWOSIDEDSTENCILMODE = 0&#13;
+D3DRS_CCW_STENCILFAIL = 1&#13;
+D3DRS_CCW_STENCILZFAIL = 1&#13;
+D3DRS_CCW_STENCILPASS = 1&#13;
+D3DRS_CCW_STENCILFUNC = 8&#13;
+D3DRS_COLORWRITEENABLE1 = 0xF&#13;
+D3DRS_COLORWRITEENABLE2 = 0xF&#13;
+D3DRS_COLORWRITEENABLE3 = 0xF&#13;
+D3DRS_BLENDFACTOR = 0xFFFFFFFF&#13;
+D3DRS_SRGBWRITEENABLE = 0&#13;
+D3DRS_DEPTHBIAS = 0.000000&#13;
+D3DRS_WRAP8 = 0&#13;
+D3DRS_WRAP9 = 0&#13;
+D3DRS_WRAP10 = 0&#13;
+D3DRS_WRAP11 = 0&#13;
+D3DRS_WRAP12 = 0&#13;
+D3DRS_WRAP13 = 0&#13;
+D3DRS_WRAP14 = 0&#13;
+D3DRS_WRAP15 = 0&#13;
+D3DRS_SEPARATEALPHABLENDENABLE = 0&#13;
+D3DRS_SRCBLENDALPHA = 2&#13;
+D3DRS_DESTBLENDALPHA = 1&#13;
+D3DRS_BLENDOPALPHA = 1&#13;
+&#13;
+*********************************************&#13;
+              Render Target&#13;
+*********************************************&#13;
+&#13;
+IsBackBuffer: false,&#13;
+   Is2DTexture: true [RT ptr:0x19ac8280, texture ptr:0x0fb38380]&#13;
+   Width: 592, Height:488,&#13;
+   Format: D3DFMT_A8R8G8B8,&#13;
+   Pool: D3DPOOL_DEFAULT,&#13;
+   Usage: D3DUSAGE_RENDERTARGET,&#13;
+   MultisampleType: D3DMULTISAMPLE_NONE,&#13;
+   MultiSampleQuality: 0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              ViewPort&#13;
+*********************************************&#13;
+&#13;
+X: 0, Y: 0,&#13;
+Width: 592, Height: 444,&#13;
+MinZ: 0.000000, MaxZ: 1.000000&#13;
+&#13;
+</user_properties>
+          </technique>
+        </extra>
+      </node>
+      <node id="DrawCall_0113-node" name="DrawCall_0113" type="NODE">
+        <translate>-30.0529 -90.8889 -4.89359</translate>
+        <rotate>1 0 0 -8.48025</rotate>
+        <instance_geometry url="#DrawCall_0113-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_33cef7a.dds" target="#_33cef7a.dds">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <user_properties>Call: DrawIndexedPrimitiveUP(D3DPT_TRIANGLELIST,&#13;
+   MinVertexIndex: 0,&#13;
+   NumVertices: 12,&#13;
+   primCount: 6,&#13;
+   indexDataFormat: D3DFMT_INDEX16,&#13;
+   VertexStreamZeroStride: 24),&#13;
+Pre-TnL vertex cache (16 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (20 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (24 vertices) efficiency: 1.00&#13;
+Pre-TnL vertex cache (32 vertices) efficiency: 1.00&#13;
+&#13;
+Post-TnL vertex cache (16 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (20 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (24 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+Post-TnL vertex cache (32 vertices) efficiency: 2.00,&#13;
+after optimization: D3DX: 2.00, LRU: 2.00&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Declaration&#13;
+*********************************************&#13;
+&#13;
+Stream: 0, Offset: 0, Type: D3DDECLTYPE_FLOAT3,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_POSITION,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 12, Type: D3DDECLTYPE_UBYTE4N,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_COLOR,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Stream: 0, Offset: 16, Type: D3DDECLTYPE_FLOAT2,&#13;
+   Method: D3DDECLMETHOD_DEFAULT,&#13;
+   Usage: D3DDECLUSAGE_TEXCOORD,&#13;
+   UsageIndex: 0&#13;
+&#13;
+Total elements: 4&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Vertex Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_COLOR, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+   2: Usage: D3DDECLUSAGE_POSITION, UsageIndex: 0&#13;
+&#13;
+Vertex shader: 584e3a2b.vsh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 cDepth;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 N0;&#13;
+//       float4 N1;&#13;
+//       float4 N2;&#13;
+//&#13;
+//   } cpnmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[64];&#13;
+//&#13;
+//   } cpostmtx;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       float4 T0;&#13;
+//       float4 T1;&#13;
+//       float4 T2;&#13;
+//       float4 T3;&#13;
+//&#13;
+//   } cproj;&#13;
+//   &#13;
+//   struct&#13;
+//   {&#13;
+//       struct&#13;
+//       {&#13;
+//           float4 t;&#13;
+//&#13;
+//       } T[24];&#13;
+//&#13;
+//   } ctexmtx;&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   cpnmtx       c0       3&#13;
+//   cproj        c6       4&#13;
+//   ctexmtx      c54      2&#13;
+//   cpostmtx     c174    64&#13;
+//   cDepth       c238     1&#13;
+//&#13;
+&#13;
+    vs_3_0&#13;
+    def c3, 1, 0, 0, 0&#13;
+    dcl_color v0&#13;
+    dcl_texcoord v1&#13;
+    dcl_position v2&#13;
+    dcl_position o0&#13;
+    dcl_color o1&#13;
+    dcl_color1 o2&#13;
+    dcl_texcoord o3.xyz&#13;
+    dcl_texcoord1 o4&#13;
+    mad r0, v1.xyxx, c3.xxyy, c3.yyxx&#13;
+    dp4 r1.x, r0, c54&#13;
+    dp4 r1.y, r0, c55&#13;
+    mov r1.z, c3.x&#13;
+    dp3 r0.x, c235, r1&#13;
+    add o3.x, r0.x, c235.w&#13;
+    dp3 r0.x, c236, r1&#13;
+    dp3 r0.y, c237, r1&#13;
+    add o3.z, r0.y, c237.w&#13;
+    add o3.y, r0.x, c236.w&#13;
+    dp4 r0.x, c0, v2&#13;
+    dp4 r0.y, c1, v2&#13;
+    dp4 r0.z, c2, v2&#13;
+    mov r0.w, c3.x&#13;
+    dp4 r1.x, c8, r0&#13;
+    mul r1.y, r1.x, c238.y&#13;
+    mov o4.z, r1.x&#13;
+    dp4 r2.w, c9, r0&#13;
+    mad o0.z, c238.x, r2.w, r1.y&#13;
+    dp4 r2.x, c6, r0&#13;
+    dp4 r2.y, c7, r0&#13;
+    mov o0.xyw, r2&#13;
+    mov o4.xyw, r2&#13;
+    mov o1, v0&#13;
+    mov o2, c3.yyyx&#13;
+&#13;
+// approximately 25 instruction slots used&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Pixel Shader&#13;
+*********************************************&#13;
+&#13;
+Input semantics:&#13;
+   0: Usage: D3DDECLUSAGE_COLOR, UsageIndex: 0&#13;
+   1: Usage: D3DDECLUSAGE_TEXCOORD, UsageIndex: 0&#13;
+&#13;
+Pixel shader: 9f314692.psh&#13;
+&#13;
+Shader source not found.&#13;
+&#13;
+======= Disassembled shader =======&#13;
+//&#13;
+// Generated by Microsoft (R) HLSL Shader Compiler 9.29.952.3111&#13;
+//&#13;
+// Parameters:&#13;
+//&#13;
+//   float4 alphaRef;&#13;
+//   sampler2D samp0;&#13;
+//   float4 texdim[8];&#13;
+//&#13;
+//&#13;
+// Registers:&#13;
+//&#13;
+//   Name         Reg   Size&#13;
+//   ------------ ----- ----&#13;
+//   alphaRef     c8       1&#13;
+//   texdim       c9       1&#13;
+//   samp0        s0       1&#13;
+//&#13;
+&#13;
+    ps_3_0&#13;
+    def c0, 0.000980392215, -0, -1, 0&#13;
+    dcl_color v0&#13;
+    dcl_texcoord v1.xy&#13;
+    dcl_2d s0&#13;
+    mul r0.xy, c9.zwzw, v1&#13;
+    mul r0.xy, r0, c9&#13;
+    texld r0, r0, s0&#13;
+    mul_sat r1.w, r0.w, v0.w&#13;
+    mov r2.x, c0.x&#13;
+    add r0.w, r2.x, c8.x&#13;
+    add r0.w, -r0.w, r1.w&#13;
+    cmp r2, r0.w, c0.y, c0.z&#13;
+    texkill r2&#13;
+    mul_sat r1.xyz, r0, v0&#13;
+    cmp oC0, r0.w, r1, c0.w&#13;
+&#13;
+// approximately 11 instruction slots used (2 texture, 9 arithmetic)&#13;
+&#13;
+===================================&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              Textures&#13;
+*********************************************&#13;
+&#13;
+Stage: 0, Texture: 333cef7a.dds,&#13;
+   2D texture, Width: 64, Height:64,&#13;
+   Format: D3DFMT_A8R8G8B8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 1, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 2, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 3, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 4, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 5, Texture: texture not found.&#13;
+   2D texture, Width: 128, Height:128,&#13;
+   Format: D3DFMT_A8L8, Pool: D3DPOOL_MANAGED, Usage: D3DUSAGE_AUTOGENMIPMAP&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_CLAMP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_LINEAR&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 6, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+Stage: 7, Texture=NULL&#13;
+&#13;
+   D3DSAMP_ADDRESSU:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSV:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_ADDRESSW:         D3DTADDRESS_WRAP&#13;
+   D3DSAMP_BORDERCOLOR:      0x00000000&#13;
+   D3DSAMP_MAGFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MINFILTER:        D3DTEXF_POINT&#13;
+   D3DSAMP_MIPFILTER:        D3DTEXF_NONE&#13;
+   D3DSAMP_MIPMAPLODBIAS:    0.000000&#13;
+   D3DSAMP_MAXMIPLEVEL:      0&#13;
+   D3DSAMP_MAXANISOTROPY:    1&#13;
+   D3DSAMP_SRGBTEXTURE:      0&#13;
+   D3DSAMP_ELEMENTINDEX:     0&#13;
+   D3DSAMP_DMAPOFFSET:       0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              RenderState&#13;
+*********************************************&#13;
+&#13;
+D3DRS_ZENABLE = 1&#13;
+D3DRS_FILLMODE = 3&#13;
+D3DRS_SHADEMODE = 2&#13;
+D3DRS_ZWRITEENABLE = 1&#13;
+D3DRS_ALPHATESTENABLE = 0&#13;
+D3DRS_LASTPIXEL = 1&#13;
+D3DRS_SRCBLEND = 5&#13;
+D3DRS_DESTBLEND = 2&#13;
+D3DRS_CULLMODE = 1&#13;
+D3DRS_ZFUNC = 2&#13;
+D3DRS_ALPHAREF = 0&#13;
+D3DRS_ALPHAFUNC = 8&#13;
+D3DRS_DITHERENABLE = 1&#13;
+D3DRS_ALPHABLENDENABLE = 0&#13;
+D3DRS_FOGENABLE = 0&#13;
+D3DRS_SPECULARENABLE = 0&#13;
+D3DRS_FOGCOLOR = 0x0&#13;
+D3DRS_FOGTABLEMODE = 0&#13;
+D3DRS_FOGSTART = 0.000000&#13;
+D3DRS_FOGEND = 1.000000&#13;
+D3DRS_FOGDENSITY = 1.000000&#13;
+D3DRS_RANGEFOGENABLE = 0&#13;
+D3DRS_STENCILENABLE = 0&#13;
+D3DRS_STENCILFAIL = 1&#13;
+D3DRS_STENCILZFAIL = 1&#13;
+D3DRS_STENCILPASS = 1&#13;
+D3DRS_STENCILFUNC = 8&#13;
+D3DRS_STENCILREF = 0&#13;
+D3DRS_STENCILMASK = 0xFFFFFFFF&#13;
+D3DRS_STENCILWRITEMASK = 0xFFFFFFFF&#13;
+D3DRS_TEXTUREFACTOR = 0xFFFFFFFF&#13;
+D3DRS_WRAP0 = 0&#13;
+D3DRS_WRAP1 = 0&#13;
+D3DRS_WRAP2 = 0&#13;
+D3DRS_WRAP3 = 0&#13;
+D3DRS_WRAP4 = 0&#13;
+D3DRS_WRAP5 = 0&#13;
+D3DRS_WRAP6 = 0&#13;
+D3DRS_WRAP7 = 0&#13;
+D3DRS_CLIPPING = 1&#13;
+D3DRS_LIGHTING = 1&#13;
+D3DRS_AMBIENT = 0x0&#13;
+D3DRS_FOGVERTEXMODE = 0&#13;
+D3DRS_COLORVERTEX = 1&#13;
+D3DRS_LOCALVIEWER = 1&#13;
+D3DRS_NORMALIZENORMALS = 0&#13;
+D3DRS_DIFFUSEMATERIALSOURCE = 1&#13;
+D3DRS_SPECULARMATERIALSOURCE = 2&#13;
+D3DRS_AMBIENTMATERIALSOURCE = 0&#13;
+D3DRS_EMISSIVEMATERIALSOURCE = 0&#13;
+D3DRS_VERTEXBLEND = 0&#13;
+D3DRS_CLIPPLANEENABLE = 0&#13;
+D3DRS_POINTSIZE = 1.850000&#13;
+D3DRS_POINTSIZE_MIN = 1.000000&#13;
+D3DRS_POINTSPRITEENABLE = 0&#13;
+D3DRS_POINTSCALEENABLE = 0&#13;
+D3DRS_POINTSCALE_A = 1.000000&#13;
+D3DRS_POINTSCALE_B = 0.000000&#13;
+D3DRS_POINTSCALE_C = 0.000000&#13;
+D3DRS_MULTISAMPLEANTIALIAS = 1&#13;
+D3DRS_MULTISAMPLEMASK = 0xFFFFFFFF&#13;
+D3DRS_PATCHEDGESTYLE = 0&#13;
+D3DRS_DEBUGMONITORTOKEN = -1163015426&#13;
+D3DRS_POINTSIZE_MAX = 256.000000&#13;
+D3DRS_INDEXEDVERTEXBLENDENABLE = 0&#13;
+D3DRS_COLORWRITEENABLE = 0x7&#13;
+D3DRS_TWEENFACTOR = 0.000000&#13;
+D3DRS_BLENDOP = 1&#13;
+D3DRS_POSITIONDEGREE = 3&#13;
+D3DRS_NORMALDEGREE = 1&#13;
+D3DRS_SCISSORTESTENABLE = 1&#13;
+D3DRS_SLOPESCALEDEPTHBIAS = 0&#13;
+D3DRS_ANTIALIASEDLINEENABLE = 0&#13;
+D3DRS_MINTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_MAXTESSELLATIONLEVEL = 1065353216&#13;
+D3DRS_ADAPTIVETESS_X = 0&#13;
+D3DRS_ADAPTIVETESS_Y = 0&#13;
+D3DRS_ADAPTIVETESS_Z = 1065353216&#13;
+D3DRS_ADAPTIVETESS_W = 0&#13;
+D3DRS_ENABLEADAPTIVETESSELLATION = 0&#13;
+D3DRS_TWOSIDEDSTENCILMODE = 0&#13;
+D3DRS_CCW_STENCILFAIL = 1&#13;
+D3DRS_CCW_STENCILZFAIL = 1&#13;
+D3DRS_CCW_STENCILPASS = 1&#13;
+D3DRS_CCW_STENCILFUNC = 8&#13;
+D3DRS_COLORWRITEENABLE1 = 0xF&#13;
+D3DRS_COLORWRITEENABLE2 = 0xF&#13;
+D3DRS_COLORWRITEENABLE3 = 0xF&#13;
+D3DRS_BLENDFACTOR = 0xFFFFFFFF&#13;
+D3DRS_SRGBWRITEENABLE = 0&#13;
+D3DRS_DEPTHBIAS = 0.000000&#13;
+D3DRS_WRAP8 = 0&#13;
+D3DRS_WRAP9 = 0&#13;
+D3DRS_WRAP10 = 0&#13;
+D3DRS_WRAP11 = 0&#13;
+D3DRS_WRAP12 = 0&#13;
+D3DRS_WRAP13 = 0&#13;
+D3DRS_WRAP14 = 0&#13;
+D3DRS_WRAP15 = 0&#13;
+D3DRS_SEPARATEALPHABLENDENABLE = 0&#13;
+D3DRS_SRCBLENDALPHA = 2&#13;
+D3DRS_DESTBLENDALPHA = 1&#13;
+D3DRS_BLENDOPALPHA = 1&#13;
+&#13;
+*********************************************&#13;
+              Render Target&#13;
+*********************************************&#13;
+&#13;
+IsBackBuffer: false,&#13;
+   Is2DTexture: true [RT ptr:0x19ac8280, texture ptr:0x0fb38380]&#13;
+   Width: 592, Height:488,&#13;
+   Format: D3DFMT_A8R8G8B8,&#13;
+   Pool: D3DPOOL_DEFAULT,&#13;
+   Usage: D3DUSAGE_RENDERTARGET,&#13;
+   MultisampleType: D3DMULTISAMPLE_NONE,&#13;
+   MultiSampleQuality: 0&#13;
+&#13;
+&#13;
+*********************************************&#13;
+              ViewPort&#13;
+*********************************************&#13;
+&#13;
+X: 0, Y: 0,&#13;
+Width: 592, Height: 444,&#13;
+MinZ: 0.000000, MaxZ: 1.000000&#13;
+&#13;
+</user_properties>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>3.33333</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Ramp.max"/>
+  </scene>
+</COLLADA>

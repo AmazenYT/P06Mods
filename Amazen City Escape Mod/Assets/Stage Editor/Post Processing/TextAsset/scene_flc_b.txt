@@ -1,0 +1,1 @@
+Light = {Ambient = {Color = {0.4, 0.34, 0.38, 0.6}}, Main = {Color = {0.54, 0.54, 0.52, 1.1}, Direction_3dsmax = {Position = {-59200, -22400, 76600}, Target = {0, 0, 0}}}, Sub = {Color = {0.5, 0.15, 0.05, 1}, Direction_3dsmax = {Position = {0.41637, 0.07353, -0.90622}, Target = {0, 0, 0}}}}, Bloom = {MinThreshold = 0.2, MaxThreshold = 2.5, Scale = 4.3}
